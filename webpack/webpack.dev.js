@@ -21,6 +21,7 @@ module.exports = {
   devtool: 'source-map',
   devServer: {
     open: true,
+	host: "0.0.0.0"
   },
   module: {
     rules: [{
